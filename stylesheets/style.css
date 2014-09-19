@@ -101,25 +101,6 @@ html, body {
   -webkit-font-smoothing: antialiased;
 }
 
-/* search tag*/
-
-.hidden
-{
-
- display: none; 
-}
-input{
-    border-radius: 5px;
-    margin-top: 10px;
-    
-}
-.search-dropdown{
-    
-    margin-right: 665px;
-    border-radius: 5px;
-   
-}
-
 /* line 74, ../sass/style.scss */
 .explore-menu:before {
   font-family: 'FontAwesome';
@@ -150,6 +131,28 @@ input{
 /* line 97, ../sass/style.scss */
 .music-genres-pulldown {
   padding-right: 0.5rem;
+}
+/*search bar */
+.hidden{
+
+display: none; 
+}
+input{
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 300px;
+    height: 33px;
+    margin-right: 10px;
+}
+.search-dropdown{
+    
+    margin-right: 50px;
+    border-radius: 5px;
+   
+}
+#global-radcircle-search-bar: before {
+    content: 'fa-search';
+    
 }
 
 /* line 101, ../sass/style.scss */
