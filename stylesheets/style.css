@@ -137,22 +137,29 @@ html, body {
 
 display: none; 
 }
-input{
-    border-radius: 5px;
-    margin-top: 5px;
-    width: 300px;
-    height: 33px;
-    margin-right: 10px;
-}
-.search-dropdown{
+
+
+#global-radcircle-search-bar {
+    margin: 10px;
     
-    margin-right: 50px;
-    border-radius: 5px;
-   
 }
-#global-radcircle-search-bar: before {
-    content: 'fa-search';
+
+
+input {
+    height: 45px;
+    background-color: rgba(0, 0, 0, 0);
+    color: black;
     
+    border: none;
+    width: 100%;
+    padding-left: 0px;
+    color: rgb(79, 79, 79);
+    outline: none;
+}
+.search-dropdown {
+    background-color: rgba(238, 238, 238, 1);
+    border-radius: 5px;
+    margin: 0 0 1em;
 }
 
 /* line 101, ../sass/style.scss */
@@ -1629,6 +1636,8 @@ h5.hangar-share-text {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: #ccc;
+    width: 100%;
+    
 }
 
 /* line 14, ../sass/_navigation.scss */
@@ -1644,6 +1653,7 @@ h5.hangar-share-text {
 /* line 19, ../sass/_navigation.scss */
 .topleft-social-container {
   padding: 1rem 0 0 3rem;
+    
 }
 
 /* line 23, ../sass/_navigation.scss */
@@ -1683,6 +1693,7 @@ h5.hangar-share-text {
   position: absolute;
   top: 0;
   right: 0;
+    
 }
 
 /* line 57, ../sass/_navigation.scss */
